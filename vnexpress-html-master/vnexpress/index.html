@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>VNExpress</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+		crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+		integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+		crossorigin="anonymous" />
+</head>
+
+<body>
+	<!-- header -->
+	<header>
+		<!-- logo -->
+		<div class="container-fluid">
+			<div class="vnheader">
+				<img src="img/banner-top.png" alt="">
+				<div class="container">
+					<div class="row">
+						<div class="col-4">
+							<div class="logo">
+								<img src="img/logo.png" alt="">
+								<span> Thứ 2, 5/18/2021 </span>
+							</div>
+						</div>
+						<div class="col-8" id="headerbot">
+							<div><button class="btn btn-light" type="submit"><a href="" class="the-a"><i
+											class="far fa-clock"></i> Mới nhất</a></button></div>
+							<div><button class="btn btn-light" type="submit"><a href="" class="the-a"><i
+											class="fab fa-etsy"></i> International</a></button></div>
+							<div>
+								<form class="navbar-form" role="search">
+									<div class="input-group">
+										<input type="text" class="form-control" placeholder="Search" name="q">
+										<div class="input-group-btn">
+											<button class="btn btn-info" type="submit"><i
+													class="fas fa-search"></i></button>
+										</div>
+									</div>
+								</form>
+							</div>
+							<div> </div>
+							<div>
+								<button class="btn btn-success" type="submit"><i class="fas fa-user"></i> Đăng nhập
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- end logo -->
+			</div>
+		</div>
+	</header>
+	<!-- end header -->
+
+	<!-- menu -->
+	<section>
+		<div>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#">
+						<a href="#"><i class="fas fa-home"></i></a>
+					</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+						data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+						aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNavDropdown">
+						<ul class="navbar-nav">
+							<li class="nav-item dropdown">
+								<a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									Thời sự
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="#">Chính trị</a></li>
+									<li><a class="dropdown-item" href="#">Đại hội XIII</a></li>
+									<li><a class="dropdown-item" href="#">Giao thông</a></li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#" id="navbarDropdownMenuLink">Góc nhìn</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									Thế giới
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="#">Tư liệu</a></li>
+									<li><a class="dropdown-item" href="#">Phân tích</a></li>
+									<li><a class="dropdown-item" href="#">Người Việt 5 châu</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									Video
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="#">Thời sự</a></li>
+									<li><a class="dropdown-item" href="#">Nhịp sống</a></li>
+									<li><a class="dropdown-item" href="#">Sport Life</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link  " href="#" id="navbarDropdownMenuLink" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									Kinh doanh
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="#">Quốc tế</a></li>
+									<li><a class="dropdown-item" href="#">Doanh nghiệp</a></li>
+									<li><a class="dropdown-item" href="#">Chứng khoán</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link  " href="#" id="navbarDropdownMenuLink" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									Giải trí
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="#">Giới sao</a></li>
+									<li><a class="dropdown-item" href="#">Video</a></li>
+									<li><a class="dropdown-item" href="#">Phim</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link  " href="#" id="navbarDropdownMenuLink" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									Thể thao
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="#">Video</a></li>
+									<li><a class="dropdown-item" href="#">Bóng đá</a></li>
+									<li><a class="dropdown-item" href="#">Lịch thi đấu</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link  " href="#" id="navbarDropdownMenuLink" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									Pháp luật
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="#">Hồ sơ phá án</a></li>
+									<li><a class="dropdown-item" href="#">Tư vấn</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link  " href="#" id="navbarDropdownMenuLink" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									Giáo dục
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="#">Tuyển sinh</a></li>
+									<li><a class="dropdown-item" href="#">Tư vấn</a></li>
+									<li><a class="dropdown-item" href="#">Tra cứu đại học</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link  " href="#" id="navbarDropdownMenuLink" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									Sức khỏe
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="#">Tin tức</a></li>
+									<li><a class="dropdown-item" href="#">Tư vấn</a></li>
+									<li><a class="dropdown-item" href="#">Dinh dưỡng</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link  " href="#" id="navbarDropdownMenuLink" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									Đời sống
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="#">Tổ ấm</a></li>
+									<li><a class="dropdown-item" href="#">Bài học sống</a></li>
+									<li><a class="dropdown-item" href="#">Nhà</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link  " href="#" id="navbarDropdownMenuLink" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									Du lịch
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="#">Điểm đến</a></li>
+									<li><a class="dropdown-item" href="#">Dấu chân</a></li>
+									<li><a class="dropdown-item" href="#">Tư vấn</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link  " href="#" id="navbarDropdownMenuLink" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									Khoa học
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="#">Tin tức</a></li>
+									<li><a class="dropdown-item" href="#">Phát minh</a></li>
+									<li><a class="dropdown-item" href="#">Ứng dụng</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link  " href="#" id="navbarDropdownMenuLink" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									Số hóa
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="#">Công nghệ</a></li>
+									<li><a class="dropdown-item" href="#">Diễn đàn</a></li>
+									<li><a class="dropdown-item" href="#">Sản phẩm</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link  " href="#" id="navbarDropdownMenuLink" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									Xe
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="#">Thị trường</a></li>
+									<li><a class="dropdown-item" href="#">Tư vấn</a></li>
+									<li><a class="dropdown-item" href="#">Diễn đàn</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link  " href="#" id="navbarDropdownMenuLink" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									Ý kiến
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="#">Đời sống</a></li>
+									<li><a class="dropdown-item" href="#">Thời sự</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link  " href="#" id="navbarDropdownMenuLink" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									Tâm sự
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="#">Chuyên gia gỡ rối</a></li>
+									<li><a class="dropdown-item" href="#">Hẹn hò</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link  " href="#" id="navbarDropdownMenuLink" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									Hài
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="#">Cười</a></li>
+									<li><a class="dropdown-item" href="#">Đố vui</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<!-- end menu -->
+	</section>
+
+	<!-- tin moi -->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-9">
+					<div class="main-tintuc">
+						<div class="img-tintuc">
+							<a href=""><img src="img/anhdemo.jpg" alt=""></a>
+						</div>
+						<div>
+							<a class="the-a" href="">
+								<h3>Thêm một bệnh nhân Covid-19 tử vong</h3>
+							</a>
+							<p>Bộ Y tế sáng 17/5 công bố "bệnh nhân 3055", nam, 34 tuổi, tử vong do viêm màng não mủ
+								biến chứng, di chứng chấn thương sọ não, viêm phổi nặng vì nhiễm nCoV.</p>
+						</div>
+					</div>
+					<hr>
+					<div class="sub-tintuc">
+						<div>
+							<a class="the-a" href="">
+								<h5>Trưa 17/5 thêm 30 ca Covid-19</h5>
+							</a>
+							<p>Bộ Y tế trưa 17/5 ghi nhận thêm 30 ca dương tính, trong đó 28 ca trong nước đều ở khu
+								cách ly và 2 ca nhập cảnh được cách ly ngay.</p>
+						</div>
+
+						<div>
+							<a class="the-a" href="">
+								<h5>Điều tra việc rao bán hàng nghìn ảnh chứng minh thư trên mạng</h5>
+							</a>
+							<p>Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (Bộ Công an) đang điều
+								tra thông tin hàng nghìn ảnh chứng minh thư bị rao bán trên mạng, giá 9.000 USD.</p>
+						</div>
+
+						<div>
+							<a class="the-a" href="">
+								<h5>Tên đại biểu tôi bầu</h5>
+							</a>
+							<p>Bạn có ​nhớ tên đại biểu Quốc hội mình đã bầu cho họ trong lần gần đây nhất không?</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<img src="img/banner-tin-trai.png" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<hr>
+	<!-- end tin moi -->
+
+	<!-- tin cu -->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-4">
+					<div>
+						<a class="the-a" href="#">
+							<h5>Siết thuế cho thuê căn hộ tác động gì đến thị trường nhà ở</h5>
+						</a>
+						<div class="tintuc-left">
+							<img id="image-tintuc" src="img/Bat-dong-san.jpg" alt="">
+							<p>Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (Bộ Công an) đang điều
+								tra thông tin hàng nghìn ảnh chứng minh thư bị rao bán trên mạng.</p>
+						</div>
+					</div>
+					<hr>
+					<div>
+						<a class="the-a" href="#">
+							<h5>Ronaldo nhắn nhủ Mbappe và Haaland</h5>
+						</a>
+						<div class="tintuc-left">
+							<img id="image-tintuc" src="img/ronaldo.jpg" alt="">
+							<p>Cristiano Ronaldo nhắc nhở hai đàn em rằng cầu thủ duy trì phong độ cao trong nhiều năm
+								mới là người vĩ đại.Cristiano Ronaldo nhắc nhở hai đàn em.</p>
+						</div>
+					</div>
+					<hr>
+					<div>
+						<a class="the-a" href="#">
+							<h5>Covid-19 tàn phá những ngôi làng Ấn Độ</h5>
+						</a>
+						<div class="tintuc-left">
+							<img id="image-tintuc" src="img/ando.jpg" alt="">
+							<p>Đại dịch tràn qua các ngóc ngách của ngôi làng Banail, bang Uttar Pradesh khiến người dân
+								từ trẻ đến già lên cơn sốt, ho, khó thở rồi chết dần. </p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-8">
+					<div>
+						<img src="img/banner-right.PNG" alt="">
+					</div>
+					<hr>
+					<div>
+						<nav class="navbar navbar-expand-lg navbar-light bg-light">
+							<div class="container-fluid">
+								<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+									<div class="navbar-nav">
+										<a class="nav-link active" aria-current="page" href="#">Kinh doanh</a>
+										<a class="nav-link" href="#">Quốc tế</a>
+										<a class="nav-link" href="#">Doanh nghiệp</a>
+										<a class="nav-link" href="#">Chứng khoán</a>
+										<a class="nav-link" href="#">Bất động sản</a>
+										<a class="nav-link" href="#">Startup</a>
+										<a class="nav-link" href="#">Bảo hiểm</a>
+										<a class="nav-link" href="#">Vhome</a>
+
+									</div>
+								</div>
+							</div>
+						</nav>
+					</div>
+
+					<div class="container-fluid">
+						<div>
+							<div class="row">
+								<div class="col-12" id="tintucphu">
+									<div>
+										<img src="img/elon-musk.jpg" alt="" width="185px" height="125px">
+									</div>
+									<div>
+										<a class="the-a" href="">Elon Musk ám chỉ tesla đã bán bitcoin</a>
+										<p>Elon Musk ngầm ám chỉ đã bán hết Bitcoin khi đáp lại nghi vấn của một tài
+											khoản tên Whale</p>
+									</div>
+
+									<div>
+										<a class="the-a" href="">TP Bắc Ninh cách ly xã hội</a>
+										<p>TP Bắc Ninh với dân số hơn 220.000 người áp dụng cách ly xã hội theo chỉ thị
+											16.</p>
+									</div>
+								</div>
+							</div>
+							<hr>
+							<div class="row-tintuc">
+								<div><a class="the-a" href="">Israel không kích phòng xét nghiệm Covid-19 duy nhất tại
+										Gaza </a></div>
+								<div><a class="the-a" href="">Sáng 18/5 thêm 19 ca Covid-19 trong nước.</a></div>
+								<div><a class="the-a" href="">Xe tải cố đè mặt xe cứu thương suốt 7 km.</a></div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end tin cu -->
+
+	<!-- quang cao -->
+	<section>
+		<div class="container my-4">
+
+			<hr class="mb-5" />
+
+			<!--Carousel Wrapper-->
+			<div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+				<!--Controls-->
+				<div class="controls-top">
+					<a class="btn-floating" href="#multi-item-example" data-slide="prev"><i
+							class="fa fa-chevron-left"></i></a>
+					<a class="btn-floating" href="#multi-item-example" data-slide="next"><i
+							class="fa fa-chevron-right"></i></a>
+				</div>
+				<!--/.Controls-->
+
+				<!--Indicators-->
+				<ol class="carousel-indicators">
+					<li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+					<li data-target="#multi-item-example" data-slide-to="1"></li>
+					<li data-target="#multi-item-example" data-slide-to="2"></li>
+				</ol>
+				<!--/.Indicators-->
+
+				<!--Slides-->
+				<div class="carousel-inner" role="listbox">
+
+					<!--First slide-->
+					<div class="carousel-item active">
+
+						<div class="row">
+							<div class="col-md-4">
+								<div class="card mb-2">
+									<img class="card-img-top" src="img/facebook.jpg" alt="Card image cap">
+									<div class="card-body">
+										<h4 class="card-title"><a href="" class="the-a">Facebook đối mặt với khủng hoảng
+												lòng tin của người dùng</a></h4>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4 clearfix d-none d-md-block">
+								<div class="card mb-2">
+									<img class="card-img-top" src="img/homemobile.png" alt="Card image cap">
+									<div class="card-body">
+										<h4 class="card-title"><a href="" class="the-a">Làm 'nhà di động' tặng bạn gái
+												du lịch xuyên Việt</a></h4>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4 clearfix d-none d-md-block">
+								<div class="card mb-2">
+									<img class="card-img-top" src="img/car.jpg" alt="Card image cap">
+									<div class="card-body">
+										<h4 class="card-title"><a href="" class="the-a">Những mẫu xe rơi khỏi top 10 bán
+												chạy đầu 2021</a></h4>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/.First slide-->
+
+					<!--Second slide-->
+					<div class="carousel-item">
+
+						<div class="row">
+							<div class="col-md-4">
+								<div class="card mb-2">
+									<img class="card-img-top" src="" alt="Card image cap">
+									<div class="card-body">
+										<h4 class="card-title"><a>asdsadasd</a></h4>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4 clearfix d-none d-md-block">
+								<div class="card mb-2">
+									<img class="card-img-top" src="" alt="Card image cap">
+									<div class="card-body">
+										<h4 class="card-title"><a>asdsadasd</a></h4>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4 clearfix d-none d-md-block">
+								<div class="card mb-2">
+									<img class="card-img-top" src="" alt="Card image cap">
+									<div class="card-body">
+										<h4 class="card-title"><a>asdsadasd</a></h4>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<!--/.Second slide-->
+
+					<!--Third slide-->
+					<div class="carousel-item">
+
+						<div class="row">
+							<div class="col-md-4">
+								<div class="card mb-2">
+									<img class="card-img-top" src="" alt="Card image cap">
+									<div class="card-body">
+										<h4 class="card-title"><a>asdsadasd</a></h4>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4 clearfix d-none d-md-block">
+								<div class="card mb-2">
+									<img class="card-img-top" src="" alt="Card image cap">
+									<div class="card-body">
+										<h4 class="card-title"><a>asdsadasd</a></h4>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4 clearfix d-none d-md-block">
+								<div class="card mb-2">
+									<img class="card-img-top" src="" alt="Card image cap">
+									<div class="card-body">
+										<h4 class="card-title"><a>asdsadasd</a></h4>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<!--/.Third slide-->
+
+				</div>
+				<!--/.Slides-->
+
+			</div>
+			<!--/.Carousel Wrapper-->
+
+
+		</div>
+	</section>
+	<!-- end thong tin dn -->
+
+	<!-- quang cao -->
+	<!-- Start Midium Banner  -->
+	<section class="midium-banner">
+		<div class="container">
+			<div class="row">
+				<!-- Single Banner  -->
+				<div class="col-lg-6 col-md-6 col-12">
+					<div class="single-banner">
+						<img src="https://via.placeholder.com/600x370" alt="#">
+						<div class="content">
+							<p>Man's Collectons</p>
+							<h3>Man's items <br>Up to<span> 50%</span></h3>
+							<a class="the-a" href="#">Shop Now</a>
+						</div>
+					</div>
+				</div>
+				<!-- /End Single Banner  -->
+				<!-- Single Banner  -->
+				<div class="col-lg-6 col-md-6 col-12">
+					<div class="single-banner">
+						<img src="https://via.placeholder.com/600x370" alt="#">
+						<div class="content">
+							<p>shoes women</p>
+							<h3>mid season <br> up to <span>70%</span></h3>
+							<a href="#" class="the-a">Shop Now</a>
+						</div>
+					</div>
+				</div>
+				<!-- /End Single Banner  -->
+				<hr>
+			</div>
+		</div>
+	</section>
+
+	<!-- End Midium Banner -->
+	<!-- end quang cao -->
+
+	<!-- footer -->
+	<footer>
+		<div class="container">
+			<div>
+				<div class="row">
+					<div class="col-8">
+						<div class=" row">
+							<div class="col-3">
+								<ul class="footerbot" id="mainfooter">
+									<li><a href="">Trang chủ</a></li>
+									<li><a href="">Video</a></li>
+									<li><a href="">Ảnh</a></li>
+									<li><a href="">Infographics</a></li>
+									<li>
+										<hr class="dropdown-divider">
+									</li>
+									<li><a href="">Mới nhất</a></li>
+									<li><a href="">Xem nhiều</a></li>
+									<li><a href="">Tin nóng</a></li>
+								</ul>
+							</div>
+
+							<div class="col-3">
+								<ul class="footerbot">
+									<li><a href="">Thời sự</a></li>
+									<li><a href="">Góc nhìn</a></li>
+									<li><a href="">Thế giới</a></li>
+									<li><a href="">Kinh doanh</a></li>
+									<li><a href="">Giải trí</a></li>
+								</ul>
+							</div>
+
+							<div class="col-3">
+								<ul class="footerbot">
+									<li><a href="">Thể thao</a></li>
+									<li><a href="">Pháp luật</a></li>
+									<li><a href="">Giáo dục</a></li>
+									<li><a href="">Sức khỏe</a></li>
+									<li><a href="">Đời sống</a></li>
+									<li><a href="">Du lịch</a></li>
+								</ul>
+							</div>
+
+							<div class="col-3">
+								<ul class="footerbot">
+									<li><a href="">Khoa học</a></li>
+									<li><a href="">Số hóa</a></li>
+									<li><a href="">Xe </a></li>
+									<li><a href="">Ý kiến</a></li>
+									<li><a href="">Tâm sự</a></li>
+									<li><a href="">Hài</a></li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="col-4">
+						<div>
+							<p>Tải ứng dụng</p>
+							<button class="btn btn-light" type="submit"><a href="" class="the-a"><i
+										class="fab fa-etsy"></i> VnExpress</a></button>
+							<button class="btn btn-light" type="submit"><a href="" class="the-a"><i
+										class="fab fa-etsy"></i> International</a></button>
+						</div>
+						<hr>
+						<div>
+						<p>Liên Hệ <br>
+							<i class="fas fa-envelope"></i><a href="" class="the-a"> Tòa Soạn &nbsp;&nbsp;&nbsp;</a> 
+							<i class="fas fa-ad"></i><a href="" class="the-a"> Quảng Cáo </a>
+						</p>
+					</div>
+					<hr>
+					<div>
+						<i class="fas fa-phone-square"></i> Đường dây nóng :0366663210
+					</div>
+					</div>
+				</div>
+				<hr>
+				<div class="container">
+
+					<div class="footer-extra">
+						<div>
+							<img src="img/logo.png" alt="#">
+							<p> Báo Tiếng Việt nhiều người xem nhất
+								<br>
+								Thuộc Bộ Khoa học Công nghệ
+								<br>
+								Số giấy phép: 06/GP-BTTTT ngày 03/01/2014
+							</p>
+						</div>
+						<div>
+							<p>Tổng biên tập: Hoàng Nam <br>
+								Địa chỉ : Tầng 2, 28 Nguyễn Tri Phương Tp.Huế <br>
+								Điện Thoại : 0312345678</p>
+						</div>
+						<div>
+
+							<p>1997-2021. Toàn bộ bản quyền thuộc VnExpress</p>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</footer>
+	<!-- end footer -->
+
+
+</body>
+
+</html>
